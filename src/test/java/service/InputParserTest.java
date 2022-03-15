@@ -27,7 +27,7 @@ class InputParserTest {
         list2.add(Command.M);
         list2.add(Command.L);
         Rover rover1 = new Rover(new Position(1,2),Direction.N);
-        Rover rover2 = new Rover(new Position(3,3),Direction.N);
+        Rover rover2 = new Rover(new Position(3,3),Direction.E);
         roverListMap.put(rover1,list1);
         roverListMap.put(rover2,list2);
         UserInput expectUserInput = new UserInput(new Plateau(new Position(5,5)),roverListMap);

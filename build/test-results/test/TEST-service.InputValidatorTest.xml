@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="service.InputValidatorTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2022-03-15T12:03:54" hostname="Ricks-MacBook-Pro.local" time="0.05">
+  <properties/>
+  <testcase name="roverNoDirection()" classname="service.InputValidatorTest" time="0.02"/>
+  <testcase name="throwException()" classname="service.InputValidatorTest" time="0.004"/>
+  <testcase name="plateauHasNumberZero()" classname="service.InputValidatorTest" time="0.002"/>
+  <testcase name="plateauHasLetter()" classname="service.InputValidatorTest" time="0.001"/>
+  <testcase name="checkCommandHasTwoLines1()" classname="service.InputValidatorTest" time="0.001"/>
+  <testcase name="checkInputPass()" classname="service.InputValidatorTest" time="0.001"/>
+  <testcase name="checkRoverCrash()" classname="service.InputValidatorTest" time="0.001"/>
+  <testcase name="plateauMoreThanTwoNumbers()" classname="service.InputValidatorTest" time="0.001"/>
+  <testcase name="checkOneRoverHasNoCommand()" classname="service.InputValidatorTest" time="0.0"/>
+  <testcase name="roverErrorDirection()" classname="service.InputValidatorTest" time="0.002"/>
+  <testcase name="checkRoverOutOfPlateau()" classname="service.InputValidatorTest" time="0.001"/>
+  <testcase name="plateauHasNegativeNumber()" classname="service.InputValidatorTest" time="0.002"/>
+  <testcase name="roverNegativeNumber()" classname="service.InputValidatorTest" time="0.001"/>
+  <testcase name="checkCommandHasNumber()" classname="service.InputValidatorTest" time="0.001"/>
+  <testcase name="commandError()" classname="service.InputValidatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

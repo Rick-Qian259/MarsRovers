@@ -16,8 +16,8 @@ public class InputParser {
     private static final String SEPARATOR = " ";
     private static final int commendCount = 0;
     private static final InputParser instance = new InputParser();
-    private static int serialNumber = 0;
     private static final int commendNum = 0;
+    private static int serialNumber = 0;
 
     private InputParser() {
 

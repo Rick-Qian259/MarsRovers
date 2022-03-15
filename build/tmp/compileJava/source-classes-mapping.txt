@@ -2,21 +2,21 @@ entity/Command.java
  entity.Command
 entity/UserInput.java
  entity.UserInput
-service/InputParser.java
- service.InputParser
+service/InputValidator.java
+ service.InputValidator
 entity/Direction.java
  entity.Direction
 entity/Position.java
  entity.Position
+service/Execution.java
+ service.Execution
+entity/Plateau.java
+ entity.Plateau
+MarsRoversApplication.java
+ MarsRoversApplication
+service/InputParser.java
+ service.InputParser
 entity/Rover.java
  entity.Rover
 service/Controller.java
  service.Controller
-MarsRoversApplication.java
- MarsRoversApplication
-entity/Plateau.java
- entity.Plateau
-service/Execution.java
- service.Execution
-service/InputValidator.java
- service.InputValidator

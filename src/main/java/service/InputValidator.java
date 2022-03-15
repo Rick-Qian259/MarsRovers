@@ -15,7 +15,7 @@ import java.util.Map;
 
 public class InputValidator {
     private static final String SEPARATOR = " ";
-    private final static Map<String, String> initRovers = new HashMap<>();
+    private final Map<String, String> initRovers = new HashMap<>();
 
     public void checkInput(String fileName) throws IOException {
         List<String> inputText = Files.readAllLines(Paths.get(fileName), StandardCharsets.UTF_8);

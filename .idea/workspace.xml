@@ -84,14 +84,16 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
       <recent name="service" />
       <recent name="entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MarsRoversApplication">
-    <configuration name="MarsRoversApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.MarsRoversApplicationTest.threeRovers">
+    <configuration name="MarsRoversApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MarsRoversApplication" />
       <module name="MarsRovers.main" />
+      <option name="PROGRAM_PARAMETERS" value="input" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InputValidatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;service.ControllerTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;service.InputValidatorTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -128,12 +130,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ControllerTest.aRoverHasNoCommand" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InputValidatorTest.checkRoverCrash" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;service.ControllerTest.aRoverHasNoCommand&quot;" />
+        <option name="scriptParameters" value="--tests &quot;service.InputValidatorTest.checkRoverCrash&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -149,12 +151,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="InputParserTest.parseInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MarsRoversApplicationTest.main" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;service.InputParserTest.parseInput&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MarsRoversApplicationTest.main&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MarsRoversApplicationTest.threeRovers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MarsRoversApplicationTest.threeRovers&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -184,7 +207,7 @@
             <option value=":test" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
@@ -193,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MarsRoversApplication" />
+        <item itemvalue="Gradle.MarsRoversApplicationTest.threeRovers" />
         <item itemvalue="Gradle.Tests in 'MarsRovers.test'" />
-        <item itemvalue="Gradle.InputParserTest.parseInput" />
-        <item itemvalue="Gradle.ControllerTest.aRoverHasNoCommand" />
-        <item itemvalue="Gradle.ControllerTest" />
+        <item itemvalue="Gradle.MarsRoversApplicationTest.main" />
+        <item itemvalue="Gradle.InputValidatorTest.checkRoverCrash" />
+        <item itemvalue="Gradle.InputValidatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +237,7 @@
       <updated>1647302684447</updated>
       <workItem from="1647302686122" duration="28224000" />
       <workItem from="1647337074198" duration="1796000" />
-      <workItem from="1647338900144" duration="677000" />
+      <workItem from="1647338900144" duration="5816000" />
     </task>
     <servers />
   </component>
@@ -234,6 +257,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/entity/RoverTest.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
         <watch expression="userInput" />
@@ -244,7 +276,7 @@
     <SUITE FILE_PATH="coverage/MarsRovers$InputValidatorTest_checkOneRoverHasNoCommand.ic" NAME="InputValidatorTest.checkOneRoverHasNoCommand Coverage Results" MODIFIED="1647334082705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MarsRovers$InputValidatorTest.ic" NAME="InputValidatorTest Coverage Results" MODIFIED="1647335705916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MarsRovers$InputValidatorTest_checkCommandHasNumber.ic" NAME="InputValidatorTest.checkCommandHasNumber Coverage Results" MODIFIED="1647335852874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/MarsRovers$Tests_in__MarsRovers_test_.ic" NAME="Tests in 'MarsRovers.test' Coverage Results" MODIFIED="1647337939236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MarsRovers$Tests_in__MarsRovers_test_.ic" NAME="Tests in 'MarsRovers.test' Coverage Results" MODIFIED="1647345326511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MarsRovers$ControllerTest.ic" NAME="ControllerTest Coverage Results" MODIFIED="1647334491296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MarsRovers$RoverTest.ic" NAME="RoverTest Coverage Results" MODIFIED="1647324596998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>

@@ -8,39 +8,17 @@ import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.*;
 
 class InputValidatorTest {
-    private InputValidator inputValidator = new InputValidator();
-    private String fileName = "input";
+    private InputValidator inputValidator;
+    private String fileName;
 
-    @Test
-    void checkCommandHasNumber() {
-        InputValidator inputValidator1 = new InputValidator();
-        String fileName1 = "testCases/input13";
-        IllegalArgumentException exception1 = assertThrows(IllegalArgumentException.class, () -> {
-            inputValidator1.checkInput(fileName1);
-        });
-        assertEquals("Incorrect input in line: LMLMLMLMM 3 3", exception1.getMessage());
-    }
-
-//    @BeforeEach
-//    void init() {
-//        fileName = "input";
-//        inputValidator = new InputValidator();
-//    }
-
-//    @Test
-//    void checkInputPass() throws IOException {
-//        inputValidator.checkInput(fileName);
-//    }
-
-    @Test
-    void checkCommandHasTwoLines1() throws IOException {
-        fileName = "testCases/input9";
-        inputValidator.checkInput(fileName);
+    @BeforeEach
+    void init() {
+        fileName = "input";
+        inputValidator = new InputValidator();
     }
 
     @Test
-    void checkOneRoverHasNoCommand() throws IOException {
-        fileName = "testCases/input10";
+    void checkInputPass() throws IOException {
         inputValidator.checkInput(fileName);
     }
 
@@ -126,12 +104,24 @@ class InputValidatorTest {
     }
 
     @Test
+    void checkCommandHasTwoLines1() throws IOException {
+        fileName = "testCases/input9";
+        inputValidator.checkInput(fileName);
+    }
+
+    @Test
+    void checkOneRoverHasNoCommand() throws IOException {
+        fileName = "testCases/input10";
+        inputValidator.checkInput(fileName);
+    }
+
+    @Test
     void checkRoverCrash() {
         fileName = "testCases/input11";
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
             inputValidator.checkInput(fileName);
         });
-        assertEquals("Incorrect input in line: 1 2 N", exception.getMessage());
+        assertEquals("Incorrect input in line: 1 2 E", exception.getMessage());
     }
 
     @Test
@@ -141,6 +131,16 @@ class InputValidatorTest {
             inputValidator.checkInput(fileName);
         });
         assertEquals("Incorrect input in line: 1 20 N", exception.getMessage());
+    }
+
+    @Test
+    void checkCommandHasNumber() {
+        InputValidator inputValidator1 = new InputValidator();
+        String fileName1 = "testCases/input13";
+        IllegalArgumentException exception1 = assertThrows(IllegalArgumentException.class, () -> {
+            inputValidator1.checkInput(fileName1);
+        });
+        assertEquals("Incorrect input in line: LMLMLMLMM 3 3", exception1.getMessage());
     }
 
 

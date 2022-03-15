@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="entity.RoverTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-03-15T12:03:54" hostname="Ricks-MacBook-Pro.local" time="0.171">
+  <properties/>
+  <testcase name="moveToEastSuccess()" classname="entity.RoverTest" time="0.115"/>
+  <testcase name="roverCrash()" classname="entity.RoverTest" time="0.035"/>
+  <testcase name="moveToNorthSuccess()" classname="entity.RoverTest" time="0.0"/>
+  <testcase name="moveToSouthSuccess()" classname="entity.RoverTest" time="0.001"/>
+  <testcase name="testToString()" classname="entity.RoverTest" time="0.001"/>
+  <testcase name="moveToWestSuccess()" classname="entity.RoverTest" time="0.001"/>
+  <testcase name="turnRight()" classname="entity.RoverTest" time="0.005"/>
+  <testcase name="roverOutOfPlateau()" classname="entity.RoverTest" time="0.001"/>
+  <testcase name="turnLeft()" classname="entity.RoverTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

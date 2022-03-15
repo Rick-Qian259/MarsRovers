@@ -11,26 +11,21 @@ public class Controller {
 
     public List<Rover> operateRovers(UserInput userInput) {
         List<Rover> rovers = new ArrayList<>();
-        userInput.getRoverListMap().forEach((key, value) -> {
-            if (value.size() != 0) {
-                rovers.add(operateRover(key, value, userInput));
-            }
-            else {
-                rovers.add(key);
-            }
+        userInput.getRoverListMap().forEach((rover, commands) -> {
+            rovers.add(operateRover(rover, commands, userInput));
         });
         return rovers;
     }
 
-    private Rover operateRover(Rover key, List<Command> value, UserInput userInput) {
-        for (Command command : value) {
+    private Rover operateRover(Rover rover, List<Command> commands, UserInput userInput) {
+        commands.forEach(command -> {
             if (command.equals(Command.M)) {
-                key.moveRover(userInput.getRoverListMap(), userInput.getPlateau());
+                rover.moveRover(userInput.getRoverListMap(), userInput.getPlateau());
             } else {
-                key.rotateRover(command);
+                rover.rotateRover(command);
             }
-        }
-        return key;
+        });
+        return rover;
     }
 
     public void reportRoverStatus(List<Rover> rovers) {

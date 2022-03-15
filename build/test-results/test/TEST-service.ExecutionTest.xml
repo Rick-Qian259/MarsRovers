@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="service.ExecutionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-15T12:03:54" hostname="Ricks-MacBook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="executeTest()" classname="service.ExecutionTest" time="0.003"/>
+  <system-out><![CDATA[1 3 N
+5 1 E
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
