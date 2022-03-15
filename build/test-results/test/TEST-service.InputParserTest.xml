@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="service.InputParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-15T12:07:23" hostname="Ricks-MacBook-Pro.local" time="0.003">
-  <properties/>
-  <testcase name="parseInput()" classname="service.InputParserTest" time="0.003"/>
-  <system-out><![CDATA[1
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
