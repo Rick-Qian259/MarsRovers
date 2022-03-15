@@ -89,7 +89,7 @@
       <recent name="entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MarsRoversApplicationTest.threeRovers">
+  <component name="RunManager" selected="Gradle.Tests in 'MarsRovers.test'">
     <configuration name="MarsRoversApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MarsRoversApplication" />
       <module name="MarsRovers.main" />
@@ -216,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MarsRoversApplicationTest.threeRovers" />
         <item itemvalue="Gradle.Tests in 'MarsRovers.test'" />
+        <item itemvalue="Gradle.InputValidatorTest" />
+        <item itemvalue="Gradle.MarsRoversApplicationTest.threeRovers" />
         <item itemvalue="Gradle.MarsRoversApplicationTest.main" />
         <item itemvalue="Gradle.InputValidatorTest.checkRoverCrash" />
-        <item itemvalue="Gradle.InputValidatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +237,7 @@
       <updated>1647302684447</updated>
       <workItem from="1647302686122" duration="28224000" />
       <workItem from="1647337074198" duration="1796000" />
-      <workItem from="1647338900144" duration="5816000" />
+      <workItem from="1647338900144" duration="6225000" />
     </task>
     <servers />
   </component>
@@ -276,7 +276,7 @@
     <SUITE FILE_PATH="coverage/MarsRovers$InputValidatorTest_checkOneRoverHasNoCommand.ic" NAME="InputValidatorTest.checkOneRoverHasNoCommand Coverage Results" MODIFIED="1647334082705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MarsRovers$InputValidatorTest.ic" NAME="InputValidatorTest Coverage Results" MODIFIED="1647335705916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MarsRovers$InputValidatorTest_checkCommandHasNumber.ic" NAME="InputValidatorTest.checkCommandHasNumber Coverage Results" MODIFIED="1647335852874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/MarsRovers$Tests_in__MarsRovers_test_.ic" NAME="Tests in 'MarsRovers.test' Coverage Results" MODIFIED="1647345326511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MarsRovers$Tests_in__MarsRovers_test_.ic" NAME="Tests in 'MarsRovers.test' Coverage Results" MODIFIED="1647345832075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MarsRovers$ControllerTest.ic" NAME="ControllerTest Coverage Results" MODIFIED="1647334491296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MarsRovers$RoverTest.ic" NAME="RoverTest Coverage Results" MODIFIED="1647324596998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>

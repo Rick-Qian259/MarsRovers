@@ -1,16 +1,16 @@
 entity/PlateauTest.java
  entity.PlateauTest
-entity/PositionTest.java
- entity.PositionTest
-MarsRoversApplicationTest.java
- MarsRoversApplicationTest
 service/ControllerTest.java
  service.ControllerTest
+entity/PositionTest.java
+ entity.PositionTest
 entity/RoverTest.java
  entity.RoverTest
 service/InputParserTest.java
  service.InputParserTest
 service/ExecutionTest.java
  service.ExecutionTest
+MarsRoversApplicationTest.java
+ MarsRoversApplicationTest
 service/InputValidatorTest.java
  service.InputValidatorTest
