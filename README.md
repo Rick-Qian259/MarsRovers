@@ -50,3 +50,5 @@ output: <br>
 3. Change the Java version to Java 11 in intellij. <br>
 4. Go to the src/main/java/MarsRoversApplication.java 
 5. Modify the run configuration, set "input" as program arguments, then run the main function.
+
+
