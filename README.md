@@ -48,4 +48,5 @@ output: <br>
 1. Clone this repository into local computer
 2. Open the project folder with the intellij IDEA.
 3. Change the Java version to Java 11 in intellij. <br>
-4. Go to the src/main/java/MarsRoversApplication.java and run the main function.
+4. Go to the src/main/java/MarsRoversApplication.java 
+5. Modify the run configuration, set "input" as program arguments, then run the main function.
