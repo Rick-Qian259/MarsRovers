@@ -27,10 +27,20 @@ The output for each rover should be its final co-ordinates and heading.
 
 #### Example: <br> 
 input: <br>
-55 <br> 1 2 N <br> LMLMLMLMM <br> 3 3 E <br> MMRMMRMRRM <br> <br> 
+
+```
+5 5
+1 2 N
+3 3 E
+1 3 N
+5 1 E
+```
 output: <br>
-1 3 N <br>
-5 1 E <br>
+
+```
+1 3 N
+5 1 E
+```
 
 
 
